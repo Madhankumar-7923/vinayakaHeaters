@@ -238,6 +238,7 @@ body {
 }
 
 .content_box p {
+    text-align: justify;
     font-size: 17px;
 }
 

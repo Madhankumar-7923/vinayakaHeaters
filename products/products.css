@@ -104,7 +104,7 @@ body {
     align-items: center;
     flex-basis: 20%;
 
-    border-radius: 15px;
+    border-radius: 10px;
 
     text-align: center;
 
@@ -119,11 +119,11 @@ body {
 
     cursor: pointer;
 
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 .content_box img {
-    border-radius: 15px;
+    border-radius: 10px;
 
     width: 300px;
     height: 250px;
@@ -142,7 +142,10 @@ body {
 }
 
 .content_box p {
-    padding: 10px 20px;
+    padding: 10px 20px 20px 20px;
+
+    text-align: justify;
+
     font-size: 17px;
 }
 
