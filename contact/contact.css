@@ -509,10 +509,6 @@ footer .containers .contact .info li a {
         gap: 40px;
     }
 
-    .contact_details {
-        padding: 20px 10px;
-    }
-
     .contact_details .heading p {
         font-size: 25px;
     }
@@ -537,16 +533,16 @@ footer .containers .contact .info li a {
         min-height: 100dvh;
     }
 
-    form {
-        margin: 10px;
-    }
-
     form #rstBtn {
         height: 50px;
     }
 
     form #smtBtn {
         height: 50px;
+    }
+
+    .contact_details{
+        min-height: 100dvh;
     }
 
     .tfree {

@@ -65,7 +65,7 @@ body {
 
     border-radius: 10px;
 
-    box-shadow: 2px 2px 1px rgb(17, 111, 152);
+    box-shadow: 2px 2px 1px #67758d;
     background-color: #798ba7;
 }
 
@@ -417,11 +417,6 @@ footer .containers .contact .info li a {
     .content_boxes {
         margin-bottom: 10px;
         width: 100%;
-    }
-
-    .content_image img {
-        height: 350px;
-        width: 60%;
     }
 
     .content_text_title {
