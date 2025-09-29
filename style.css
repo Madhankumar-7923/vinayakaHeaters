@@ -47,7 +47,7 @@ body {
     justify-content: center;
     align-items: center;
 
-    background-color: #000000;
+    background-color: #ffffff;
 }
 
 #carouselExampleAutoplaying {
@@ -61,8 +61,16 @@ body {
     height: 100%;
 }
 
+.active {
+    left: 20%;
+    width: 60%;
+}
+
 .carousel-item {
+    left: 20%;
+
     height: 100%;
+    width: 60%;
 }
 
 .d-block {
@@ -212,11 +220,11 @@ body {
 
 .content_box {
     flex-basis: 30%;
-    
+
     text-align: center;
 
     transition: 1s;
-    
+
 }
 
 .content_box img {
@@ -431,7 +439,7 @@ footer .containers .quicklinks ul li a {
 }
 
 footer .containers .quicklinks ul li a:hover {
-    color:#e31818cb
+    color: #e31818cb
 }
 
 footer .containers .contact .info {
@@ -503,7 +511,18 @@ footer .containers .contact .info li a {
     /*CAROUSEL*/
 
     #carouselExampleAutoplaying {
-        height: 250px;
+        height: 200px;
+        width: 100%;
+    }
+
+    .active {
+        left: 0%;
+        width: 100%;
+    }
+
+    .carousel-item {
+        left: 0%;
+
         width: 100%;
     }
 
@@ -567,9 +586,9 @@ footer .containers .contact .info li a {
         height: 100px;
     }
 
-    .slide{
+    .slide {
         height: 70px;
-         width: 120px;   
+        width: 120px;
     }
 
     .slide img {
