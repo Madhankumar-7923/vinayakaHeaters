@@ -304,7 +304,7 @@ form #smtBtn:hover {
 }
 
 .map .aTag {
-    padding:10px;
+    padding: 10px;
 
     border-radius: 5px;
 
@@ -539,7 +539,7 @@ footer .containers .contact .info li a {
 @media screen and (max-width: 425px) {
 
     .contacts {
-        min-height: 100dvh;
+        min-height: 80dvh;
     }
 
     form #rstBtn {
@@ -552,7 +552,7 @@ footer .containers .contact .info li a {
 
     .contact_details {
         padding: 20px 10px 20px 20px;
-        min-height: 100dvh;
+        min-height: 80dvh;
     }
 
     .tfree {
@@ -571,5 +571,14 @@ footer .containers .contact .info li a {
 
     .map .mapLine {
         font-size: 16px;
+    }
+
+    .map img {
+        height: 75px;
+        width: 100px;
+    }
+
+    .map .aTag {
+        padding: 7px;
     }
 }
