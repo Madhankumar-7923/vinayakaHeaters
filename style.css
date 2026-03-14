@@ -214,17 +214,22 @@ body {
     gap: 30px;
 
     margin-top: 10px;
+    margin-bottom: 10px;
 
     padding: 20px 10px;
 }
 
 .content_box {
-    flex-basis: 30%;
+    padding: 20px;
+    flex-basis: 27%;
 
     text-align: center;
 
     transition: 1s;
-
+    
+    background-color: #e8e8e8;
+    border: solid rgb(168, 168, 168) 1px;
+    border-radius: 20px;
 }
 
 .content_box img {
@@ -243,11 +248,13 @@ body {
     margin-bottom: 10px;
 
     font-size: 24px;
+    color: #000;
 }
 
 .content_box p {
     text-align: justify;
     font-size: 17px;
+    color: #000;
 }
 
 /*Clients Slider*/
